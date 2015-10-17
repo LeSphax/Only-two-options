@@ -1,10 +1,12 @@
 # Only-two-options
 
-When I started creating this game, I wanted to create a the "I can see the end but I don't seem to get closer" feeling.
+When I started creating this game, I wanted to create a "I can see the end but I don't seem to get closer" feeling.
 I also wanted to try to make something which would feel like a level from the game "Antichamber".
-This is why I found a quote and turned the level around it.
+This is why I then found a quote and turned the level around it.
 
-I had a friend try it and I realized that as it is it isn't really interesting, the player doesn't feel very proud to finish the game.
+I had a friend try it and I realized that as it is, it isn't really interesting.
+The player doesn't feel very proud to finish the game.
+
 To improve it I have thought about creating obstacles like projectiles to dodge.
 The player would have to overcome while going towards the end of the tunnel.
 
