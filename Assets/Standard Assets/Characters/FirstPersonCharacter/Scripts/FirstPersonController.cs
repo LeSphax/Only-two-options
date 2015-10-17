@@ -280,11 +280,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void OnControllerColliderHit(ControllerColliderHit hit)
         {
-            Debug.Log(hit.gameObject.tag);
+            
             if (hit.gameObject.tag == "Obstacle")
             {
                 m_Animated = true;
-                Debug.Log("fallinf");
                 this.SendMessage("StartFalling");
             }
             Rigidbody body = hit.collider.attachedRigidbody;

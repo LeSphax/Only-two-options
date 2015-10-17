@@ -79,7 +79,7 @@ public class TunnelController : MonoBehaviour
         {
             CreateNewTunnelPart(false);
         }
-        UpdateLaunchers();
+        //UpdateLaunchers();
         UpdateGoals();
     }
 
