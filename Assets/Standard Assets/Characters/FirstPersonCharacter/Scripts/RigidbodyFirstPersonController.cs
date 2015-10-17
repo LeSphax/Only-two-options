@@ -77,7 +77,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         public Camera cam;
         public MovementSettings movementSettings = new MovementSettings();
-        public MouseLook mouseLook = new MouseLook();
+        public MyMouseLook mouseLook = new MyMouseLook();
         public AdvancedSettings advancedSettings = new AdvancedSettings();
 
 

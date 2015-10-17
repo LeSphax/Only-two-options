@@ -4,11 +4,11 @@ using System.Collections;
 public class SizeWall : MonoBehaviour
 {
 
-    private TunnelManager sizeTunnel;
+    private TunnelController sizeTunnel;
 
     void Awake()
     {
-        sizeTunnel = GetComponentInParent<TunnelManager>();
+        sizeTunnel = GetComponentInParent<TunnelController>();
     }
 
     void Update()

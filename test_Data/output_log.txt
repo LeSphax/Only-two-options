@@ -18,11 +18,7 @@ Platform assembly: C:\Users\Sébastien\Documents\Antichamber\test_Data\Managed\U
 Loading C:\Users\Sébastien\Documents\Antichamber\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Sébastien\Documents\Antichamber\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Sébastien\Documents\Antichamber\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\Sébastien\Documents\Antichamber\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Sébastien\Documents\Antichamber\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Sébastien\Documents\Antichamber\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Sébastien\Documents\Antichamber\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.131 seconds
+- Completed reload, in  0.138 seconds
 desktop: 1920x1080 60Hz; virtual: 4020x1313 at -2100,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -30,5 +26,5 @@ desktop: 1920x1080 60Hz; virtual: 4020x1313 at -2100,0
 Platform assembly: C:\Users\Sébastien\Documents\Antichamber\test_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Sébastien\Documents\Antichamber\test_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1cd8 -> priority: 1 
-  Thread -> id: 85dc -> priority: 1 
+  Thread -> id: 21ac -> priority: 1 
+  Thread -> id: f94 -> priority: 1 

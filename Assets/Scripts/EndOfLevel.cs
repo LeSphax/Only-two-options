@@ -4,10 +4,9 @@ using System.Collections;
 
 public class EndOfLevel : MonoBehaviour {
 
-    public GameObject panel;
-
     void OnTriggerEnter()
     {
-        panel.GetComponent<Animator>().SetBool("EndOfGame",true);
+        Debug.Log("End");
+        GameObject.FindGameObjectWithTag("EndGameScreen").GetComponent<Animator>().SetBool("EndOfGame",true);
     }
 }
