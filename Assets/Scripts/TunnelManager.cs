@@ -57,7 +57,7 @@ public class TunnelManager : MonoBehaviour
 
     void CreateLittleTunnel()
     {
-        int posSideTunnelInBlocks = numberBlocksBeforeSideTunnel;
+        int posSideTunnelInBlocks = numberBlocksBeforeSideTunnel+1;
         tunnelObject.GetComponent<TunnelController>().depth = sizeLittleTunnel;
         Vector3 tunnelPosition = tunnel.SuppressWallsOnCenter(posSideTunnelInBlocks, directionPlayer == DirectionPlayer.FORWARD);
         littleTunnel = ((GameObject)Instantiate(tunnelObject, tunnelPosition, Quaternion.Euler(new Vector3(0, 90, 0)))).GetComponent<TunnelController>();
