@@ -32,6 +32,22 @@ public class TunnelManager : MonoBehaviour
         
     }
 
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = false;
+            Screen.fullScreen = true;
+        }
+    }
+
+    void OnPointerDown()
+    {
+        
+    }
+
+
     void Start()
     {
         // Vector3 tunnelPosition = player.transform.position + Vector3.up * verticalSize / 2;

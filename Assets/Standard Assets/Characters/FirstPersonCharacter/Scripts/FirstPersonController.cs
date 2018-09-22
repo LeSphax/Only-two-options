@@ -26,7 +26,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField]
         private float m_GravityMultiplier;
         [SerializeField]
-        private MyMouseLook m_MouseLook;
+        private MouseLook m_MouseLook;
         [SerializeField]
         private bool m_UseFovKick;
         [SerializeField]
